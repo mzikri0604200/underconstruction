@@ -1,0 +1,28 @@
+.card-count {
+  position: absolute;
+  bottom: 2%;
+  left: 53%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+
+.count-text {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.count-body {
+  border: 2px solid white;
+  color: white;
+}
+
+.count-body p {
+  margin-bottom: 0;
+}
+
+.count-desc li {
+  font-size: 1.1em;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-weight: 600;
+}
